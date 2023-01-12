@@ -1,0 +1,13 @@
+# Kayla Hopper
+# CSCI 1170 - MTSU
+# Remarks: Calculate the tuition of the next five years.
+
+tuition=8000*2        #Tuition is 8000/semester times 2 semesters a year
+i=0                   # i = years
+while i < 5:
+  increase = tuition*0.03     #Tuition increases 3% each year
+  
+  tuition += increase
+  semester=tuition/2
+  i+=1
+  print('Your tuition for the next five years is $', format(semester,',.2f'),' per semester.', sep='')
