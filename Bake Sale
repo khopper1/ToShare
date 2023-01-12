@@ -1,0 +1,11 @@
+# Kayla Hopper
+# CSCI 2170-005 - MTSU
+# Remarks: Gather input from user about about many cookies they want to make, and give the user the output of how much sugar, butter, and flour they need.
+
+cookies=int(input("How many cookies would you like? "))     #Input for cookies
+sugar=(cookies/48)*1.5                                      #Calculate sugar in cups
+butter=(cookies/48)*1                                       #Calculate butter in cups
+flour=(cookies/48)*2.75                                     #Calculate flour in cups
+
+#Print results
+print("You need", sugar,"cups of sugar", butter,"cups of butter, and", flour, "cups of flour.")   
