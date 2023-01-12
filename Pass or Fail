@@ -1,0 +1,15 @@
+# Kayla Hopper
+#CSCI 1170.005
+# Remarks: Write a program that determines if you will pass and continue on through your classes.
+
+score = int(input('Enter a score (0 to 100): '))
+
+if score >= 73:
+  print(score, 'is Good!')
+elif score >=60:
+  print(score, 'is passing.')
+elif score < 60:
+  print(score, 'is failing.')
+else:
+  print(score, 'is an invalid number.')
+  print('The number should be between 0 and 100 inclusive.')
